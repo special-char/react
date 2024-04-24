@@ -28,4 +28,4 @@ if (appname) {
   (async () => {
     await open(START_URL, {app: [appname, extargs]});
   })();
-}
+};
